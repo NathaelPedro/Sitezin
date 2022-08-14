@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+.faixa_login{
+    background: linear-gradient(180deg, rgba(187, 7, 133, 0.842) 0%, rgba(180, 16, 16, 0.795) 100%);
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: clamp(350px,33vw,500px);
+    height: clamp(350px,33vw,400px);
+    border-radius: 250px;
+    border:rgba(187, 7, 133, 0.89) 10px solid;
+}   
+h1{
+    font-family: 'DynaPuff', cursive;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.774);
+}
+button{
+    background-color: rgba(151, 1, 93, 0.753);
+    border: none;
+    font-size: 20px;
+}
+.faça_login{
+    background-color: rgba(255, 255, 255, 0.671);
+    color: white;
+    font-size: 20px;
+    border-radius: 23px;
+    text-align: center;
+    margin: 7px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
