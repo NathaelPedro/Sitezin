@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+.faixa_login{
+    background-color: rgb(182, 12, 131);
+    font-size: 15px;
+}
+h1{
+    color: white;
+    
+}
+h2{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 14px;
+}
+.faça_login{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 14px;
+}
