@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 5px 25px;
+    background: #FFC000;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.DivProdut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 2%;
+    background: linear-gradient(0deg,#4472C4 0% ,#26227C 100%)
+}
+
+div:last-of-type {
+    background: linear-gradient(0deg, #4472C4 0%,#A47A95 50%, #CC7D0A 100%);
+    border-top: #26227C solid 2px;
+}
+
+.DivProdut h1 {
+    font-family: Arial, Helvetica;
+    color: #FFC000;
+    margin-bottom: 25px;
+}
+
+.DivProdut p {
+    color: white;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.DivProdut button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: #FFC000;
+    color: #26227C;
+    font-weight: 700;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.DivProdut button:hover {
+    transform: scale(1.2);
+    background: #ffd556;
+}
+
